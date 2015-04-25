@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>listScroller test</title>
+</head>
+<body>
+<div id="inport-box" class="inport"></div>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/min/listScroller.min.js"></script>
+<script>
+    var arr = ['diamont1001 抽中iPhone 6 plus', '491441035 抽中iPad mini 2', 'chenjr 抽中1000元现金'];
+    ListScroller.init($("#inport-box"), {
+        duration:800,
+        interval:3000,
+        height: "24px",
+        "font-size": "18px"
+    });
+    ListScroller.setData(arr);
+    ListScroller.start();
+</script>
+</body>
+</html>
