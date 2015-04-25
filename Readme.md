@@ -9,6 +9,7 @@
 
 ## 用法例子
 实例可参数test.html
+
     //第一步，初始化插件
     ListScroller.init($("#inport-box"), {
         duration:800,
@@ -27,7 +28,7 @@
 ### 初始化接口
     ListScroller.init(handler, options)
     @param handler: 滚动显示外框的id或者jquery句柄
-    @param options: （要选）配置信息
+    @param options: （可选）配置信息
         {
             "font-size": "12px",    //文字字体大小，默认12px
             height: "18px",         //滚动展示栏高度，默认18px
