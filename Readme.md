@@ -2,13 +2,13 @@
 在做运营活动页面的过程中，特别是抽奖活动页面，通常会有中奖信息滚动通知的需求，本模块的出现就是为了方便实现该效果。
 
 ## 插件引用  
-如果页面上已有jquery或者zepto，刚不用再引入jquery-1.7.1.min.js
+如果页面上已有jquery或者zepto(animate)，刚不用再引入jquery-1.7.1.min.js
 
     <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="js/min/listScroller.min.js"></script>
 
 ## 用法例子
-实例可参数test.html
+实例可参考test.html
 
     //第一步，初始化插件
     ListScroller.init($("#inport-box"), {
