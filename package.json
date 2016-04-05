@@ -5,7 +5,7 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "zepto": "^1.0.1"
+    "zepto": ">=1.0.1"
   },
   "main": "src/list-scroller.js",
   "scripts": {
