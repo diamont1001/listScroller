@@ -4,6 +4,8 @@
  * @dependence jquery/zepto.animate
  */
 
+ require('zepto');
+
 !(function () {
     var ListScroller = (function () {
         var $handler = null;    //滚动显示窗外层

@@ -1,22 +1,13 @@
 {
   "name": "list-scroller",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Prize scroll notification.",
   "license": "MIT",
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-uglify": "~0.2.1",
-    "grunt-contrib-requirejs": "~0.4.1",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-strip": "~0.2.1"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "express": "3.x"
+    "zepto": "^1.0.1"
   },
-  "main": "js/listScroller.js",
+  "main": "src/list-scroller.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
