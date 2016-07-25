@@ -2,7 +2,7 @@
 在做运营活动页面的过程中，特别是抽奖活动页面，通常会有中奖信息滚动通知的需求，本模块的出现就是为了方便实现该效果。
 
 ## 安装
-	npm install jr-qrcode
+	npm install list-scroller
 
 ## 插件引用  
 如果页面上已有jquery或者zepto(animate)，则不用再引入zepto.min.js
@@ -30,6 +30,7 @@
 ## 接口介绍
 ### 初始化接口
     ListScroller.init(handler, options)
+
     @param handler: 滚动显示外框的id或者jquery句柄
     @param options: （可选）配置信息
         {
