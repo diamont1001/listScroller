@@ -4,11 +4,17 @@
 ## 安装
 	npm install list-scroller
 
-## 插件引用  
+## 插件引用 ##
+本插件依赖zepto/jQuery，zepto需要包含animate模块才行。
+
 如果页面上已有jquery或者zepto(animate)，则不用再引入zepto.min.js
+
+### 传统引用 ###
 
     <script type="text/javascript" src="../src/zepto.min.js"></script>
 	<script type="text/javascript" src="../src/list-scroller.js"></script>
+### 模块化引用（比如：Webpack）
+	require('list-scroller');
 
 ## 用法例子
 实例可参考test.html
